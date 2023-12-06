@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cookie Settings</title>
+<link rel="stylesheet" href="./assets/style/index.css">
+<script src="./assets/script/index.js" type="module"></script>
+
+</head>
+<body>
+
+<div id="banner" class="hero-banner">
+  <h1>Welcome to Our Website</h1>
+</div>
+
+<div id="cookieModal" class="modal">
+  <div class="modal-content">
+    <h2>Cookies</h2>
+    <p>We use cookies to improve your experience on our website. By clicking "Accept", you agree to the use of cookies for marketing and analytics purposes.</p>
+    <div class="button-container">
+        <button id="acceptAll">Accept all</button>
+        <button id="settings">Settings</button>
+    </div>
+  </div>
+</div>
+
+<div id="settingsModal" class="modal ">
+  <!-- ...other HTML... -->
+<div class="modal-content ">
+    <h2>Settings</h2>
+    <div class="toggle-container">
+        <label for="browser">Browser</label>
+        <input type="checkbox" id="browser" checked>
+    </div>
+    <div class="toggle-container">
+        <label for="operatingSystem">Operating system</label>
+        <input type="checkbox" id="operatingSystem" checked>
+    </div>
+    <div class="toggle-container">
+        <label for="screenWidth">Screen width</label>
+        <input type="checkbox" id="screenWidth" checked>
+    </div>
+    <div class="toggle-container">
+        <label for="screenHeight">Screen height</label>
+        <input type="checkbox" id="screenHeight" checked>
+    </div>
+    <button id="savePreferences">Save preferences</button>
+  </div>
+  <!-- ...other HTML... -->
+  
+</div>
+
+</body>
+</html>
